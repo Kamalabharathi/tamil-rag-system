@@ -1,0 +1,26 @@
+# Environment
+tamil-rag-env/
+.env
+
+# Large files
+faiss_store/
+__pycache__/
+*.pyc
+*.pkl
+*.index
+src/__pycache__/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# OS
+.DS_Store
+Thumbs.db
+
+faiss_store/
+*.index
+*.pkl
+*.zip
+tamil-rag-env/
+__pycache__/
+.env
