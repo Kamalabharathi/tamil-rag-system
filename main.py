@@ -7,7 +7,7 @@ from src.vectorstore import FaissVectorStore
 from src.retriever import ImprovedRetriever
 
 # ── API Key ──
-SARVAM_API_KEY = "sk_3mqt47me_KcY8X0qeJ4WGmPFmZpfdvA0b"
+SARVAM_API_KEY = "Your_api_key"
 
 # ── Sarvam LLM ──
 class SarvamLLM:
