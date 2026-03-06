@@ -81,7 +81,7 @@ class FaissVectorStore:
 # Example usage
 if __name__ == "__main__":
     from src.data_loader import load_text_documents
-    docs = load_text_documents(r"C:\Users\naray\Downloads\wiki_data\Clean wiki_part1")
+    docs = load_text_documents(r"path_to_datafile")
     store = FaissVectorStore("faiss_store")
     store.build_from_documents(docs)
     store.load()
