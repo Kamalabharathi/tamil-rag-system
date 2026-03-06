@@ -29,7 +29,7 @@ def load_text_documents(data_dir: str) -> List[Any]:
 
 # Example usage with your folder path
 if __name__ == "__main__":
-    folder_path = r"C:\Users\naray\Downloads\tamil-rag-system\Clean wiki_part1"
+    folder_path = r"path_to_data"
     docs = load_text_documents(folder_path)
     print(f"Loaded {len(docs)} documents.")
     print("Example document:", docs[0] if docs else None)
