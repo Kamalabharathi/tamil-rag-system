@@ -43,7 +43,7 @@ class EmbeddingPipeline:
 
 # Usage
 if __name__ == "__main__":
-    docs = load_text_documents(r"C:\Users\naray\Downloads\wiki_data\Clean wiki_part1")
+    docs = load_text_documents(r"path_to_data_file")
     emb_pipe = EmbeddingPipeline()
     
     # GPU support
